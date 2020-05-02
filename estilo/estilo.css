@@ -1,43 +1,51 @@
-header img {
+/*header img {
     width: 350px;
     height: 57px;
     margin: 10px; 
     display: inline;
    }
-
-header nav ul {   
-    height: 60px;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color:lightgray;
-    display:inline;
-    border-top-style: solid;    
+*/
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    /*    height: 60px;
+    width: 100%;    
+    
+    background-color: lightgray;
+    display: inline;
+    border-top-style: solid;
     border-top-color: lightslategray;
-    border-top-width:thin;
-    border-radius: 0px 0px 15px 15px;
+    border-top-width: thin;
+    border-radius: 0px 0px 15px 15px;*/
 }
 
+/*
 header nav ul li {
     float: right;
     margin: 0px;
     padding: 0px;
     display: block;
     
-}
+}*/
 
 header nav ul li a {
-    text-align: center;
     display: block;
+    color: #000;
+    padding: 8px 16px;
     text-decoration: none;
-    width: 90px;
-    padding: 21px;
-    color: black;
-    font-size: 17px;
-    
-        
+
 }
 
+.active {
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+/*
 header nav ul li a:hover {
     color: blueviolet;
 }
@@ -46,7 +54,7 @@ header nav ul li.actual a,
 header nav ul li.actual a:hover {
     color: blueviolet;
     }
-
+*/
 
 #bienvenida {
     display: flex;
@@ -57,9 +65,9 @@ header nav ul li.actual a:hover {
     list-style: none;
     margin-top: 5px;
     margin-bottom: 01px;
-    background-color:wheat;
+    background-color: wheat;
     color: black;
-    text-align:center;
+    text-align: center;
     font-size: 36px;
     letter-spacing: 10px;
     border-radius: 15px 15px 15px 15px;
@@ -73,10 +81,10 @@ footer {
     padding: 10px;
     background-color: dimgray;
     color: white;
-    text-align:left;
+    text-align: left;
     font-size: 12px;
     border-radius: 15px 15px 0px 0px;
-    }
+}
 
 #novedades {
     height: 200px;
@@ -85,7 +93,7 @@ footer {
     background-color: green;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
-    }
+}
 
 #hardware {
     height: 200px;
@@ -94,7 +102,7 @@ footer {
     background-color: yellow;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
-    }
+}
 
 #soluciones {
     height: 200px;
@@ -103,7 +111,7 @@ footer {
     background-color: blue;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
-    }
+}
 
 #codigo {
     height: 200px;
@@ -112,28 +120,36 @@ footer {
     background-color: red;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
-    }
+}
 
 .form-contenedor {
-	width:480px; 
-	margin:0 auto; 
-	padding: 30px 30px 15px 30px; 
-	font-family:tahoma;
-	overflow:auto
-	}
-	 
-	.form-contenedor input[type=phone],
-	.form-contenedor input[type=name],
-	.form-contenedor input[type=email],
-	.form-contenedor textarea{width:100%; display:block;margin: 10px 0;}
-	.form-contenedor input[type=submit]{ font-size:18px;float:center; }
- 
-#trabajos {    
-    background-color:whitesmoke;
+    width: 480px;
+    margin: 0 auto;
+    padding: 30px 30px 15px 30px;
+    font-family: tahoma;
+    overflow: auto
+}
+
+.form-contenedor input[type=phone],
+.form-contenedor input[type=name],
+.form-contenedor input[type=email],
+.form-contenedor textarea {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+.form-contenedor input[type=submit] {
+    font-size: 18px;
+    float: center;
+}
+
+#trabajos {
+    background-color: whitesmoke;
     color: black;
-    text-align:center;
+    text-align: center;
     display: block;
     margin: 10px;
-    padding : 10px;
-    
+    padding: 10px;
+
 }

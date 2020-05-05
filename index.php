@@ -27,13 +27,14 @@
     <header class="">
 
         <h1 class="">Pardo Germán</h1>
+        <h2>Analista de sistemas</h2>
         <nav class="">
 
             <ul>
                 <?php                 
                         foreach ($menu as $menu1 => $menu2){
              
-                        $clase= ($secc==$menu1)?'active':'';           echo '<li><a class="nav-link '.$clase.'" href="index.php?seccion='.$menu1.'">'.$menu2.'</li></a>';
+                        $clase= ($secc==$menu1)?'active':'';           echo '<li><a class="'.$clase.'" href="index.php?seccion='.$menu1.'">'.$menu2.'</li></a>';
                         }
                     ?>
             </ul>

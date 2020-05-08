@@ -14,3 +14,9 @@ $b = rand (0,(count ($trabajos))-1);
 
 <h1 class="cover-heading">Bienvenido.</h1>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>

@@ -9,6 +9,7 @@
     <title>Pardo Germán</title>
     <link rel="icon" href="imagenes/GPico.ico">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="estilo/bootstrap.min.css">-->
     <!--<link rel="stylesheet" href="estilo/cover.css">-->
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
@@ -24,12 +25,13 @@
             $secc=isset($_GET['seccion'])?$_GET['seccion']:'inicio';
     ?>
 
+    <h1 class="">Pardo Germán</h1>
+
+
+    <h2>Analista de sistemas</h2>
+
     <header class="">
-
-        <h1 class="">Pardo Germán</h1>
-        <h2>Analista de sistemas</h2>
         <nav class="">
-
             <ul>
                 <?php                 
                         foreach ($menu as $menu1 => $menu2){

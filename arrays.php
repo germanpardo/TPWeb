@@ -1,9 +1,9 @@
 <?php
 
-$menu=['inicio'=>'Inicio',
-         'trabajos'=>'Porfolio',
-         'quienes'=>'Personal',
-         'contacto'=>'Contacto',
+$menu=['contacto'=>'Contacto',
+       'quienes'=>'Personal',
+       'trabajos'=>'Porfolio',
+       'inicio'=>'Inicio',
       ];
 
 $categorias=['Software','Web','Java',
@@ -53,5 +53,3 @@ $trabajos[]=[
 
 
 ?>
-
-

@@ -51,5 +51,29 @@ $trabajos[]=[
     'categoria'=>'2',
 ];
 
+    $banners=[];
+
+    $banners[]=[
+    'nombre'=>'Diseño',
+    'color'=>'#42ae1a',
+];
+     
+    $banners[]=[
+    'nombre'=>'Analisis',
+    'color'=>'#1aae96',
+];
+
+    $banners[]=[
+    'nombre'=>'Web',
+    'color'=>'#ae1a1a',
+];
+
+    $banners[]=[
+    'nombre'=>'Programación',
+    'color'=>'#1a2dae',
+];
+
+
+
 
 ?>

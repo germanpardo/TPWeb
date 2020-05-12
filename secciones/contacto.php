@@ -1,12 +1,12 @@
-<div class="form-contenedor">
+<div class="">
 
     <form method="post" action="../TPWeb/secciones/gracias.php">
         <div class="form-group">
-            <label for="formGroupExampleInput">Nombre</label>
+            <label for="nombre">Nombre</label>
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="" name="name">
         </div>
         <div class="form-group">
-            <label for="inputEmail4">Email</label>
+            <label for="email">Email</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="" name="email">
         </div>
         <div class="form-group">

@@ -2,7 +2,7 @@
 
 foreach($banners as $banner){
 
-echo "<p id='banner' class='' style='background-color:".$banner['color'].";'>".$banner['nombre']."</p>";
+echo "<p id='banner' class='bclass' style='background-color:".$banner['color'].";'>".$banner['nombre']."</p>";
 
 }
    
@@ -19,6 +19,8 @@ $b = rand (0,(count ($trabajos))-1);
   
 ?>
 
+
+
 <h1 class="cover-heading">Bienvenido.</h1>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
@@ -27,9 +29,3 @@ $b = rand (0,(count ($trabajos))-1);
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem odio harum? Voluptas adipisci sequi atque voluptatibus dolore minima obcaecati cum voluptatem id, numquam iste, quasi a suscipit ex eos.</p>
-
-
-<script>
-    function showSlides();
-
-</script>

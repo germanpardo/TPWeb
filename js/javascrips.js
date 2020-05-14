@@ -1,17 +1,24 @@
-var slideIndex = 0;
+//Banners
 
-function showSlides();
+var bannerIndex = 0;
 
-function showSlides() {
+mostrarBanner();
+
+
+function mostrarBanner() {
+
     var i;
-    var slides = document.getElementsByClassName("w3-animate-right");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    var banner = document.getElementsByClassName("bclass");
+
+    for (i = 0; i < banner.length; i++) {
+        banner[i].style.display = "none";
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1
+
+    bannerIndex++;
+    if (bannerIndex > banner.length) {
+        bannerIndex = 1
     }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+    banner[bannerIndex - 1].style.display = "block";
+    setTimeout(mostrarBanner, 2000);
 }

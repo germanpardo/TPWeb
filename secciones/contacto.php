@@ -1,47 +1,47 @@
 <div class="">
 
     <form method="post" action="../TPWeb/secciones/gracias.php">
-        <div class="form-group">
+        <div class="">
             <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="" name="name">
+            <input type="text" class="" id="" placeholder="" name="name">
         </div>
-        <div class="form-group">
+        <div class="">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="" name="email">
+            <input type="email" class="" id="" placeholder="" name="email">
         </div>
-        <div class="form-group">
-            <label for="formGroupExampleInput">Consulta</label>
-            <textarea class="form-control" name="comment" id="formGroupExampleInput" placeholder="" cols="50" rows="10"></textarea>
+        <div class="">
+            <label for="">Consulta</label>
+            <textarea class="" name="comment" id="" placeholder="" cols="50" rows="10"></textarea>
         </div>
 
-        <div class="form-group row">
-            <div class="col-sm-2">Temas de interes</div>
-            <div class="col-sm-10">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                    <label class="form-check-label" for="gridCheck1">
+        <div class="">
+            <div class="">Temas de interes</div>
+            <div class="">
+                <div class="">
+                    <input class="" type="checkbox" id="">
+                    <label class="form-check-label" for="">
                         Diseño Web
                     </label>
                 </div>
             </div>
         </div>
-        <div class="form-group row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-10">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                    <label class="form-check-label" for="gridCheck1">
+        <div class="">
+            <div class=""></div>
+            <div class="">
+                <div class="">
+                    <input class="" type="checkbox" id="">
+                    <label class="" for="gridCheck1">
                         Hosting
                     </label>
                 </div>
             </div>
         </div>
-        <div class="form-group row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-10">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                    <label class="form-check-label" for="gridCheck1">
+        <div class="">
+            <div class=""></div>
+            <div class="">
+                <div class="">
+                    <input class="" type="checkbox" id="">
+                    <label class="" for="gridCheck1">
                         Software
                     </label>
                 </div>

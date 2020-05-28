@@ -5,16 +5,21 @@ $cat=isset($_GET['categoria'])?$_GET['categoria']:NULL;
 
 ?>
 
-<nav class="nav nav-masthead justify-content-center">
-    <?php                 
+<nav class="navcat">
+    <ul>
+        <?php                 
                         foreach ($categorias as $categ1 => $categ2){
              
-                        $c= ($cat==$categ1)?'active':'';           echo '<a class="nav-link '.$c.'" href="index.php?seccion=trabajos&&categoria='.$categ1.'">'.$categ2.'</a>';
+                        $c= ($cat==$categ1)?'active':'';           echo '<li><a class="'.$c.'" href="index.php?seccion=trabajos&&categoria='.$categ1.'">'.$categ2.'</a></li>';
                         }
-                    ?>
+    ?>
+    </ul>
 </nav>
 
+
+
 <?php
+    
 
 if (!is_null($cat)){
      

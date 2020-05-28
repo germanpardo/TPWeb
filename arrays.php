@@ -73,7 +73,7 @@ $trabajos[]=[
     'color'=>'#1a2dae',
 ];
 
-$banners[]=[
+    $banners[]=[
     'nombre'=>'Base de datos',
     'color'=>' #e2f50f',
 ];

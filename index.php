@@ -30,15 +30,13 @@
 
     <h1 class="w3-animate-top">Pardo Germán</h1>
 
-    <h2 class="w3-animate-bottom">Analista de sistemas</h2>
-
     <header class="">
         <nav class="">
             <ul>
                 <?php                 
                         foreach ($menu as $menu1 => $menu2){
              
-                        $clase= ($secc==$menu1)?'active':'';           echo '<li><a class="'.$clase.'" href="index.php?seccion='.$menu1.'">'.$menu2.'</li></a>';
+                        $clase= ($secc==$menu1)?'active':'';           echo '<li><a onmouseover="letraGrande(this)" onmouseout="letraPequeña(this)" class="'.$clase.'" href="index.php?seccion='.$menu1.'">'.$menu2.'</li></a>';
                         }
                     ?>
             </ul>

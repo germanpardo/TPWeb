@@ -13,6 +13,7 @@ header {
     top: 0;
     background-color: darkseagreen;
     margin-bottom: 10px;
+    z-index: 3;
 }
 
 .navcat {
@@ -67,13 +68,43 @@ footer {
 }
 
 #banner {
-
     padding: 40px;
     font-size: 30px;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
+}
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+}
 
+.flex-container div {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+img {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-block {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    transform: translate(0%, -100%);
+    text-align: center;
+    z-index: 2;
 }
 
 /*

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
@@ -27,6 +28,29 @@
         
             $secc=isset($_GET['seccion'])?$_GET['seccion']:'inicio';
     ?>
+    
+   <!--Inicio del Logo-->
+      
+       <div class="container">
+  <div class="bear">
+    <div class="bear__ears">
+      <div class="bear__ears__left ear"></div>
+      <div class="bear__ears__right ear"></div>
+    </div>
+    <div class="bear__body">
+      <div class="bear__eyes">
+        <div class="bear__eyes--left eye"></div>
+        <div class="bear__eyes--right eye"></div>
+      </div>
+      <div class="bear__nose">
+        <div class="bear__nose--inner"></div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow"></div>
+</div>      
+        
+<!--Fin del logo-->
 
     <h1 class="w3-animate-top">Pardo Germán</h1>
 

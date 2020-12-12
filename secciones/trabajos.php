@@ -1,7 +1,8 @@
 <?php
 
 
-$cat=isset($_GET['categoria'])?$_GET['categoria']:NULL;
+$cat=empty($_GET['categoria'])||$_GET['categoria']=='Todos'?NULL:$_GET['categoria'];
+
 
 ?>
 

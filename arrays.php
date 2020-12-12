@@ -6,7 +6,7 @@ $menu=['contacto'=>'Contacto',
        'inicio'=>'Inicio',
       ];
 
-$categorias=['Software','Web','Java',
+$categorias=['Todos','Software','Web','Java',
             ];
 
 $trabajos=[];
@@ -16,7 +16,7 @@ $trabajos[]=[
     'caract'=>'Pagina web, software, aplicacion',
     'para'=>'Propio',
     'año'=>'2018',
-    'categoria'=>'0',
+    'categoria'=>'1',
 ];
     
     $trabajos[]=[
@@ -24,7 +24,7 @@ $trabajos[]=[
     'caract'=>'Pagina web, software, aplicacion',
     'para'=>'Propio',
     'año'=>'2018', 
-    'categoria'=>'0',
+    'categoria'=>'1',
 ];
 
     $trabajos[]=[
@@ -32,7 +32,7 @@ $trabajos[]=[
     'caract'=>'Pagina web, software, aplicacion',
     'para'=>'Propio',
     'año'=>'2018',
-    'categoria'=>'1',    
+    'categoria'=>'2',    
 ];
 
     $trabajos[]=[
@@ -40,7 +40,7 @@ $trabajos[]=[
     'caract'=>'Pagina web, software, aplicacion',
     'para'=>'Propio',
     'año'=>'2018',
-    'categoria'=>'1',
+    'categoria'=>'2',
 ];
 
     $trabajos[]=[
@@ -48,7 +48,7 @@ $trabajos[]=[
     'caract'=>'Pagina web, software, aplicacion',
     'para'=>'Propio',
     'año'=>'2018',
-    'categoria'=>'2',
+    'categoria'=>'3',
 ];
 
     $banners=[];

@@ -28,12 +28,12 @@
 
         <?php  
     
-if(!empty($_POST['email']&&$_POST['name']&&$_POST['comment'])) {
+if(!empty($_POST['femail']&&$_POST['fname']&&$_POST['comment'])) {
     
     echo "<img src='../imagenes/ok.png' alt=''>";
-    echo "<h2>".$_POST['name']."\n</h2>";
+    echo "<h2>".$_POST['fname']."\n</h2>";
     echo "<h3>Su consulta se ha enviado con exito. A la brevedad enviaremos la respuesta al siguiente mail:\n<h3>";
-    echo "<h3>".$_POST['email']."\n</h3>";
+    echo "<h3>".$_POST['femail']."\n</h3>";
     
    /* $para = 'german.pardo@davinci.edu.ar';
     $titulo = $_POST['name'];

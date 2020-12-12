@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=80%, initial-scale=1.0">
     <meta name="description" content="Web Personal">
-    <meta name="author" content="Pardo Group">
-    <title>Pardo Germán</title>
-    <link rel="icon" href="imagenes/GPico.ico">
+    <meta name="author" content="Pardo Germán">
+    <title>Futago</title>
+    <link rel="icon" href="imagenes/picture.ico">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
             $secc=isset($_GET['seccion'])?$_GET['seccion']:'inicio';
     ?>
     
-   <!--Inicio del Logo-->
+   <!--Inicio del Logo
       
        <div class="container">
   <div class="bear">
@@ -50,9 +50,9 @@
   <div class="shadow"></div>
 </div>      
         
-<!--Fin del logo-->
+Fin del logo-->
 
-    <h1 class="w3-animate-top">Pardo Germán</h1>
+    <h1 class="">Futago</h1>
 
     <header class="">
         <nav class="">
@@ -60,7 +60,8 @@
                 <?php                 
                         foreach ($menu as $menu1 => $menu2){
              
-                        $clase= ($secc==$menu1)?'active':'';           echo '<li><a onmouseover="letraGrande(this)" onmouseout="letraPequeña(this)" class="'.$clase.'" href="index.php?seccion='.$menu1.'">'.$menu2.'</li></a>';
+                        $clase= ($secc==$menu1)?'active':'';           
+                        echo '<li><a onmouseover="letraGrande(this)" onmouseout="letraPequeña(this)" class="'.$clase.'" href="index.php?seccion='.$menu1.'">'.$menu2.'</li></a>';
                         }
                     ?>
             </ul>

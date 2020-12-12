@@ -30,13 +30,13 @@ letraGrande();
 letraPequeña();
 
 function letraGrande(x) {
-    x.style.fontSize = "13px";
-    x.style.padding = "13px 30px";
+    x.style.fontSize = "18px";
+    x.style.padding = "18px 30px";
 }
 
 function letraPequeña(x) {
-    x.style.fontSize = "12px";
-    x.style.padding = "14px 30px";
+    x.style.fontSize = "16px";
+    x.style.padding = "20px 30px";
 }
 
 //Linea negra en el navegador de categorias
@@ -55,3 +55,43 @@ function linea() {
     }
 
 }*/
+
+//Validacion del formulario de contacto
+
+function validateForm() {
+    var x1 = document.forms["myForm"]["fname"].value;
+    if (x1 == "") {
+        fnameval.style.display = "block";
+        nombre.style.borderColor = "red";
+        //alert ("Name must be filled out");
+    } else {
+        fnameval.style.display = "none";
+        nombre.style.borderColor = "black";
+    }
+
+    var x2 = document.forms["myForm"]["femail"].value;
+    if (x2 == "") {
+        femailval.style.display = "block";
+        inputmail.style.borderColor = "red";
+        //alert ("Name must be filled out");
+    } else {
+        femailval.style.display = "none";
+        inputmail.style.borderColor = "black";
+    }
+
+    var x3 = document.forms["myForm"]["comment"].value;
+    if (x3 == "") {
+        fcomment.style.display = "block";
+        comentarios.style.borderColor = "red";
+        //alert ("Name must be filled out");
+    } else {
+        fcomment.style.display = "none";
+        comentarios.style.borderColor = "black";
+    }
+
+    if (x1 != "" && x2 != "" && x3 != "") {
+
+    } else {
+        return false;
+    }
+}
